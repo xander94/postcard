@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88A2CBEE1B5274E800D70BC8 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A2CBED1B5274E800D70BC8 /* ViewController2.swift */; };
 		88D9FD141B51BC7500957214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D9FD131B51BC7500957214 /* AppDelegate.swift */; };
 		88D9FD161B51BC7500957214 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D9FD151B51BC7500957214 /* ViewController.swift */; };
 		88D9FD191B51BC7500957214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D9FD171B51BC7500957214 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88A2CBED1B5274E800D70BC8 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		88D9FD0E1B51BC7500957214 /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D9FD121B51BC7500957214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88D9FD131B51BC7500957214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				88D9FD131B51BC7500957214 /* AppDelegate.swift */,
 				88D9FD151B51BC7500957214 /* ViewController.swift */,
+				88A2CBED1B5274E800D70BC8 /* ViewController2.swift */,
 				88D9FD171B51BC7500957214 /* Main.storyboard */,
 				88D9FD1A1B51BC7500957214 /* Images.xcassets */,
 				88D9FD1C1B51BC7500957214 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				88D9FD161B51BC7500957214 /* ViewController.swift in Sources */,
 				88D9FD141B51BC7500957214 /* AppDelegate.swift in Sources */,
+				88A2CBEE1B5274E800D70BC8 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				88D9FD2F1B51BC7500957214 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88D9FD301B51BC7500957214 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				88D9FD321B51BC7500957214 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
